@@ -1,0 +1,1 @@
+Please enter city name with country short form

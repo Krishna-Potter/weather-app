@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat';
+}
+
+#main {
+  background-image: url(./assets/weather-bg.jpg);
+  background-size: cover;
+}
+
+#weather {
+  min-height: 100vh;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.75));
+}
+
+#search-box {
+  text-align: center;
+}
+
+#search-bar {
+  color: #000;
+  width: 80%;
+  padding: 15px;
+  font-size: 18px;
+  margin-top: 10%;
+  font-weight: 500;
+
+  box-shadow: 0px 5px rgba(0, 0, 0, 0.2);
+  border: none;
+  outline: none;
+  appearance: none;
+  background-color: rgba(255, 255, 255, 0.75);
+
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+
+  transition: 0.4 ease;
+  -webkit-transition: 0.4 ease;
+  -moz-transition: 0.4 ease;
+  -ms-transition: 0.4 ease;
+  -o-transition: 0.4 ease;
+}
+
+#search-bar:focus {
+  background-color: #fff;
+}
+
+#location-box {
+  text-align: center;
+  margin-top: 8em;
+}
+
+#location {
+  color: #fff;
+  font-size: 35px;
+  margin-bottom: 0.5em;
+  font-weight: 500;
+  text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
+}
+
+#date {
+  color: #fff;
+  font-size: 20px;
+  font-style: italic;
+  margin-bottom: 0.5em;
+  font-weight: 300;
+  text-shadow: 2px 2px rgba(50, 50, 50, 0.5);
+}
+
+#weather-box {
+  text-align: center;
+}
+
+#temp {
+  color: #fff;
+  position: relative;
+  display: inline-block;
+  margin: 30px auto;
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 15px 25px;
+
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+
+  font-size: 40px;
+  font-weight: 900;
+  text-shadow: 3px 6px rgba(50, 50, 70, 0.5);
+  text-align: center;
+
+  box-shadow: 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+#weather-status {
+  font-size: 48px;
+  color: #fff;
+  font-weight: 700;
+  text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
+}
+
+#about {
+  text-align: center;
+  margin-top: 6em;
+}
+
+#role {
+  color: #fff;
+  font-size: 20px;
+  padding: 1%;
+  margin-bottom: 0.3em;
+  font-weight: 500;
+}
+
+#owner-name a {
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 2px;
+  font-size: 18px;
+  text-decoration: none;
+}
